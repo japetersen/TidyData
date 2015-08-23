@@ -27,7 +27,7 @@ The next transformation was to extract all of the measurements' recorded means a
 
 The next transformation was to replace the coded activity numbers with their corresponding text description. See the Codebook for further elaboration.
 
-The final transformation was to calculate the average means and standard deviations for each activity by subject. Since each subject performed each of the 6 activities multiple times, we are left with one mean and standard deviation per activity per subject for a total of 180 observations (30 subjects by 6 activities).
+The final transformation was to calculate the average means and standard deviations for each activity by subject. Since each subject performed each of the 6 activities multiple times, we are left with one average mean or standard deviation per activity per subject for a total of 180 observations (30 subjects by 6 activities).
 
 # Additional Information
 
