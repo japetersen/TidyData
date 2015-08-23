@@ -23,7 +23,7 @@ The datasets were split into two general parts, test and train. Each subset cont
 
 The first transformation was to merge the datasets together - first within each general subset, then finally combining the subsets together. This was done in this order to maintain row integrity and keep the measurements correctly matched to the activity and the subject who performed it.
 
-The next transformation was to extract all of the measurements' recorded means and standard deviations. Attention was paid to make sure that varable names containing either "mean" or "Mean" were extracted.
+The next transformation was to extract all of the measurements' recorded means and standard deviations. Attention was paid to make sure that variable names containing either "mean" or "Mean" were extracted.
 
 The next transformation was to replace the coded activity numbers with their corresponding text description. See the Codebook for further elaboration.
 
