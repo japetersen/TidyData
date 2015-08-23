@@ -15,7 +15,7 @@ This codebook is used to describe the variables in the final dataset created in 
 
 * Activity:
   + Description: Record of what each subject was doing for each observation
-  + Values: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
+  + Values: Walking (1), Walking Upstairs (2), Walking Downstairs (3), Sitting (4), Standing (5), and Laying (6)
   + Units: None
 
 * Columns 3 through 88
