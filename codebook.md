@@ -11,11 +11,14 @@ This codebook is used to describe the variables in the final dataset created in 
 * Subject_ID:
   + Description: Unique ID number assigned to one of 30 test subjects
   + Values: 1-30
+  + Units: None
 
 * Activity:
   + Description: Record of what each subject was doing for each observation
   + Values: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, and Laying
+  + Units: None
 
 * Columns 3 through 88
-  + Description: Average of various means and standard deviations of positional, speed, and other motion measurements
+  + Description: Average of various means and standard deviations of positional, speed, and other motion measurements. Each subject performed each activity multiples times. There is an average value for each measurement per subject per activity for a total of 180 observations for each measurement corresponding to 30 subjects performing 6 different activities.
   + Values: All values normalized to be from -1 to 1; averages are bound by same conditions.
+  + Units: Since values are normalized, all values are unitless.
